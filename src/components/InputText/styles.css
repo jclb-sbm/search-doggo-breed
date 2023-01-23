@@ -1,0 +1,14 @@
+input[type="text"] {
+  height: 2rem;
+  width: 50vw;
+}
+
+.InputTextContainer {
+  display: flex;
+  flex-direction: column;
+  margin: .5rem 0rem
+}
+
+span {
+  margin: .25rem 0rem;
+}
