@@ -1,11 +1,17 @@
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+input[type="text"] {
+  height: 2rem;
+  width: 50vw;
 }
 
-img {
-  margin-top: .5rem;
-  border-radius: 1%;
+@media screen and (max-width: 425px) {
+  input[type="text"] {
+    height: 2.5rem;
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  input[type="text"] {
+    width: 80vw;
+  }
 }

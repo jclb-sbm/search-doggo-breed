@@ -1,8 +1,3 @@
-input[type="text"] {
-  height: 2rem;
-  width: 50vw;
-}
-
 .InputTextContainer {
   display: flex;
   flex-direction: column;
